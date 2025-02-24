@@ -82,6 +82,10 @@ PiCube also supports **traditional CPU/DSP/GPU data types**:
 ---
 
 ## **1.1 SPOT and VECT Addressing**
+
+![PiCube Register Structure](./diagrams/fig1_1.png)
+
+
 PiCube can directly or indirectly address **256 16-bit data registers** (`spot`).  
 - **32 spots** with the same high 3-bit address form a **32-element vector (`vect`)**.  
 - **256 spots** are **organized into 8 rows** of 32-element vectors.
